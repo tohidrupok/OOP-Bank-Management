@@ -57,4 +57,4 @@ Dept.CSe, DIU(Dhaka)
 
 
 # © 2024 tohidrupok
-# This code is licensed under the Falcon Squared License. It's open for You.
+# This code is licensed under the Falcon Squad License. It's open for You.
