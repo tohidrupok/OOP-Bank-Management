@@ -33,7 +33,7 @@ class system:
 
     def login(self):
         username = input("Please enter your username: ")
-        password = input("Please create a secure password: ")
+        password = input("Please enter your password: ")
 
         admin = self.find_admin(username, password)
         user = self.find_user(username, password)
@@ -106,7 +106,7 @@ class system:
                     else:
                         self.print_box("Sorry, not enough balance.")
                 else:
-                    self.print_box("Friend not found.")
+                    self.print_box(f"'{friend_name}' account is not found")
             elif a == "5":
                 user.history_transaction()
             elif a == "6":
@@ -151,9 +151,4 @@ class system:
 
         # Bottom rounded corners
         print("╰" + "─" * width + "╯\n")
-
-
-
-
-
-
+        
